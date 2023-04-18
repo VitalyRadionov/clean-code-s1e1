@@ -5,23 +5,23 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.more {
+.eisenhower-matrix {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.more img {
+.eisenhower-matrix img {
   width: 100%;
 }
 
-.more .more__inf {
+.eisenhower-matrix .eisenhower-matrix__inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .more {
+  .eisenhower-matrix {
     text-align: center;
   }
 }
@@ -38,7 +38,7 @@ body {
   flex-grow: 1
 }
 
-.task-row-wrapper {
+.task-wrapper {
   display: flex;
 }
 
