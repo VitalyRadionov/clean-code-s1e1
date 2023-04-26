@@ -47,7 +47,7 @@ button {
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .button {
@@ -141,12 +141,12 @@ button {
 
 /* Edit Task */
 .li .task-input {
-  display: none
+  display: none;
 }
 
 .li.edit-mode .task-input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .li.edit-mode .task-lable {
