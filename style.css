@@ -19,18 +19,18 @@ button {
   font-family: Lato, sans-serif;
 }
 
-.eisenhower-matrix {
+.inf {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.eisenhower-matrix__img {
+.inf__img {
   width: 100%;
 }
 
-.eisenhower-matrix__inf {
+.inf__link {
   font-family: fantasy, cursive;
 }
 
