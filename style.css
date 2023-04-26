@@ -6,6 +6,14 @@ ul {
 
 li {
   list-style: none;
+
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 input,
@@ -19,18 +27,18 @@ button {
   font-family: Lato, sans-serif;
 }
 
-.eisenhower-matrix {
+.inf {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.eisenhower-matrix__img {
+.inf__img {
   width: 100%;
 }
 
-.eisenhower-matrix__inf {
+.inf__link {
   font-family: fantasy, cursive;
 }
 
@@ -99,17 +107,7 @@ button {
 }
 
 /* Task list */
-.li {
-  overflow: hidden;
-  padding: 20px 0;
-  border-bottom: 1px solid #eee;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.li>* {
+li>* {
   vertical-align: middle;
 }
 
@@ -117,7 +115,7 @@ button {
   margin: 0 10px;
 }
 
-.li>.task-lable {
+li>.task-lable {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -140,16 +138,16 @@ button {
 }
 
 /* Edit Task */
-.li .task-input {
+li .task-input {
   display: none;
 }
 
-.li.edit-mode .task-input {
+.edit-mode .task-input {
   display: inline-block;
   width: 224px;
 }
 
-.li.edit-mode .task-lable {
+.edit-mode .task-lable {
   display: none;
 }
 
